@@ -1,5 +1,5 @@
 import React from "react";
-import { Image } from "antd";
+import { Badge, Drawer, Image, List, Space, Typography } from "antd";
 import img1 from "../../images/home-img/09.png";
 import img2 from "../../images/home-img/10.png";
 import img3 from "../../images/home-img/11.png";
@@ -18,7 +18,7 @@ const HomePage = () => {
     <div>
       {/* header section starts */}
       <header class="header">
-        <a class="logo">
+        <a href="#" class="logo">
           <Image
             width={60}
             src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/bxniddwcus7orai6swdf"
@@ -91,7 +91,7 @@ const HomePage = () => {
               to resources, markets, and information,  primary goal is to increase agricultural productivity
             </p>
             <br />
-            <a class="btn333">
+            <a href="#" class="btn333">
               read more
             </a>
           </div>
@@ -102,7 +102,7 @@ const HomePage = () => {
               Those who need credit support for their agricultural products: Governments are in charge of establishing an environment that is supportive of agriculture,
               including laws and initiatives that aid small-scale farmers and advance the production of agriculture.
             </p>
-            <a class="btn333">
+            <a href="#" class="btn333">
               read more
             </a>
           </div>
@@ -322,19 +322,19 @@ const HomePage = () => {
         <div class="box-container">
           <div class="box">
             <h3>contact info</h3>
-            <a class="links">
+            <a href="#" class="links">
               {" "}
               <i class="fas fa-phone"></i> 0702298135{" "}
             </a>
-            <a class="links">
+            <a href="#" class="links">
               {" "}
               <i class="fas fa-phone"></i> 0767419179{" "}
             </a>
-            <a class="links">
+            <a href="#" class="links">
               {" "}
               <i class="fas fa-envelope"></i> agriculturalhub@gmail.com{" "}
             </a>
-            <a class="links">
+            <a href="#" class="links">
               {" "}
               <i class="fas fa-map-marker-alt"></i>Colombo 3{" "}
             </a>
@@ -342,7 +342,7 @@ const HomePage = () => {
 
           <div class="box">
             <h3>quick links</h3>
-            <a class="links">
+            <a href="#" class="links">
               {" "}
               <i class="fas fa-arrow-right"></i> home{" "}
             </a>
@@ -362,10 +362,10 @@ const HomePage = () => {
 
           <div class="box">
             <div class="share">
-              <a class="fab fa-facebook-f"></a>
-              <a class="fab fa-twitter"></a>
-              <a class="fab fa-instagram"></a>
-              <a class="fab fa-linkedin"></a>
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
             </div>
           </div>
         </div>
