@@ -4,12 +4,6 @@ import React from "react";
 const Header = () => {
   return (
     <header class="header">
-      <a href="#" class="logo">
-      {/* <Image
-        width={60}
-        src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/bxniddwcus7orai6swdf"
-      ></Image> Blood Bank{" "} */}
-      </a>
       <nav1 class="navbar">
         <a href="#home">home</a>
         <a href="#aboutus">About Us</a>

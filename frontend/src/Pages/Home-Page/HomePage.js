@@ -322,7 +322,7 @@ const HomePage = () => {
         <div class="box-container">
           <div class="box">
             <h3>contact info</h3>
-            <a href="#" class="links">
+            <a  class="links">
               {" "}
               <i class="fas fa-phone"></i> 0702298135{" "}
             </a>
@@ -362,10 +362,10 @@ const HomePage = () => {
 
           <div class="box">
             <div class="share">
-              <a href="#" class="fab fa-facebook-f"></a>
-              <a href="#" class="fab fa-twitter"></a>
-              <a href="#" class="fab fa-instagram"></a>
-              <a href="#" class="fab fa-linkedin"></a>
+              <a  class="fab fa-facebook-f"></a>
+              <a  class="fab fa-twitter"></a>
+              <a class="fab fa-instagram"></a>
+              <a  class="fab fa-linkedin"></a>
             </div>
           </div>
         </div>
